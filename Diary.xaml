@@ -1,0 +1,77 @@
+﻿<Window x:Class="NTharani.Diary"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NTharani"
+        mc:Ignorable="d"
+        Title="Diary" Height="450" Width="800" Background="#FFFF99">
+    <Grid>
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition ></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+
+
+            </Grid.ColumnDefinitions>
+
+
+
+
+            <TextBlock x:Name="txtbname" FontSize="20" FontStyle="Italic" Grid.Row="0" Grid.Column="8" Grid.ColumnSpan="11" ></TextBlock>
+            <Image Source="https://m.media-amazon.com/images/I/41RRAImimqL._AC_UF1000,1000_QL80_.jpg" Width="200" Height="400" Grid.Row="2" Grid.RowSpan="8" Grid.Column="8" Grid.ColumnSpan="10" ></Image>
+
+            <Label x:Name="lbld" Content="Memories" FontSize="25" Grid.ColumnSpan="5" FontStyle="Italic" FontWeight="Bold" Grid.Row="0" Grid.Column="4" ></Label>
+            <Button x:Name="btnwrite"  Background="#CCCC00" Click="btnwrite_Click" Grid.Row="2" Grid.Column="0" FontSize="15" FontStyle="Italic" Content="WRITE" Height="30"></Button>
+            <Button x:Name="btnRead"   Background="#CCCC00" Click="btnRead_Click" Grid.Row="3" Grid.Column="0" FontSize="15" FontStyle="Italic" Content="READ" Height="30"></Button>
+            <Frame x:Name="Framemain" Background="#CCCC00" Height="400" Width="400" Grid.Column="1" Grid.ColumnSpan="7" Grid.Row="1" Grid.RowSpan="7"></Frame>
+
+            
+
+
+
+
+
+
+
+
+
+
+        </Grid>
+        
+    </Grid>
+
+
+
+
+
+
+
+
+
+
+
+</Window>
